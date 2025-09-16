@@ -24,3 +24,18 @@ Not knowing what most of the file meant, I left in untouched. I assume some stuf
 I encountered an error message the first time this ran, because I hadn't set up Github Pages yet. Having to go to Settings in the repository to configure Pages seems like a weird choice, but I've done it before so I didn't have any trouble setting this up.
 
 My blog is now live at [Github Pages](https://oryant.github.io/oryan-uk-jekyll).
+
+## Fixing errors
+
+I noticed that I was getting a warning message when deploying the site to Github Pages:
+
+```
+build
+The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+```
+
+This took me back to a different version of the Jekyll instructions from the ones I had been following. This page suggested I should be using the **Jekyll** workflow, not the **GitHub Pages Jekyll** one I had been using. Since it was early days I figured I might as well try again with this other workflow.
+
+The process of removing one workflow and adding another was fiddly, and every change would result in a push to the main branch, kicking off one or both of the workflows and generating errors. Eventually I got it working, and, after editing the workflow to force a later version of Ruby to be used, the site is back up and running.
+
+Overall, the experience of setting this up was a bit frustrating due to slightly old documentation, but that's to be expected from something a) free and b) aimed at computer people.
