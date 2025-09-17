@@ -22,6 +22,7 @@ title: Tim's wonderful blog of amazing things
 email: tim@this.domain
 description: >- # this means to ignore newlines until "baseurl:"
   I work for a large public sector organisation running one of the most popular websites in the world. This is not that website.
+  
   This is where I write about things that interest me.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://www.oryan.uk" # the base hostname & protocol for your site, e.g. http://example.com
