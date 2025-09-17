@@ -23,7 +23,11 @@ email: tim@this.domain
 description: >- # this means to ignore newlines until "baseurl:"
   I work for a large public sector organisation running one of the most popular websites in the world. This is not that website.
   This is where I write about things that interest me.
+<<<<<<< HEAD
 baseurl: "" # the subpath of your site, e.g. /blog
+=======
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+>>>>>>> 57ffbaa (Adjust build settings and baseurl)
 url: "https://www.oryan.uk" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  oryant

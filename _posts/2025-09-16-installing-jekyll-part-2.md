@@ -29,10 +29,11 @@ My blog is now live at [Github Pages](https://oryant.github.io/oryan-uk-jekyll).
 
 I noticed that I was getting a warning message when deploying the site to Github Pages:
 
-```
-build
-The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
-```
+
+> build
+> 
+> The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+
 
 This took me back to a different version of the Jekyll instructions from the ones I had been following. This page suggested I should be using the **Jekyll** workflow, not the **GitHub Pages Jekyll** one I had been using. Since it was early days I figured I might as well try again with this other workflow.
 
