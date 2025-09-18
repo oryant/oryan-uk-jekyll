@@ -1,12 +1,6 @@
 ---
 layout: post
-title: "My experience of installing Jekyll: Part 3 -- more Github Pages"
-date: 2025-09-18
-categories: [markdown, posts, blog]
----
----
-layout: post
-title: "My experience of installing Jekyll: Part 3 -- more Github Pages"
+title: "My experience of installing Jekyll: Part 3 – more Github Pages"
 date: 2025-09-18 17:00:00 +0100
 categories: jekyll
 ---
